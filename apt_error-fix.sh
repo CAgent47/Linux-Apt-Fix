@@ -49,8 +49,8 @@ for i in {1..2}; do
     echo " "
 done
 
-echo -e "\e[45mCreated By GodFather\e[0m"
+echo -e "\e[45mCreated By CAgent_47\e[0m"
 sleep 5
 reboot
 
-# Scripted By GodFather
+# Scripted By CAgent_47
