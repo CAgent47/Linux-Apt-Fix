@@ -5,9 +5,13 @@ A Bash Script to automatically fix / repair and clean broken or incomplete APT p
 # New Update (V2.0):
 
 **Optimized Script**
+
 **Fixed Bugs**
+
 **Improved evecution speed and fixed**
+
 **Moved Commands To Json file For Ease Of Development**
+
 **Cleaning Your System**
 ---
 
