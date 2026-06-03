@@ -12,7 +12,7 @@ function Enter() {
 
 installation() {
     for pkgs in "$@"; do
-        if ! command -v "$pkgs" &> /dev/null; then
+        if ! dpkg -s "$pkgs" >/dev/null 2>&1; then
             sudo apt install "$pkgs"
         fi
     done
