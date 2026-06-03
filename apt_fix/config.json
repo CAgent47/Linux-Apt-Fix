@@ -1,0 +1,19 @@
+{
+    "info": {
+        "author": "CAgent_47",
+        "GitHub": "https://github.com/CAgent47",
+        "linkedin": "https://www.linkedin.com/in/mohammad-mostafa-shaygan-2a96a8387/"
+    },
+    "commands": [
+        "sudo rm -f /var/lib/dpkg/lock-frontend /var/lib/dpkg/lock",
+        "sudo rm /var/lib/apt/lists/lock",
+        "sudo rm /var/cache/apt/archives/lock",
+        "sudo rm /var/lib/dpkg/lock",
+        "sudo apt autoremove -y",
+        "sudo apt autoclean -y",
+        "sudo dpkg --configure -a",
+        "sudo apt --fix-broken install -y",
+        "sudo apt update",
+        "sudo apt full-upgrade -y"
+    ]
+}
